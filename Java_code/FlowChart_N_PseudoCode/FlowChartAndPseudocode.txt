@@ -1,0 +1,19 @@
+1.FLOWCHART : 
+They are the diagramatic representaiton of logic/solution for any problem . 
+
+2.Components of FLowchart : 
+a> oval shap = the oval shap represents the start or end of the flow chart 
+b> parallelogram shap = this represents input/ouput fields 
+c> rectangle = this represents any functional part of the code.(expressions,assigning value to variables etc)
+d> rhombus = this represents decisional part of the code, like if Blackpather is TRUE then print True else print false, 
+e> arrow = this represents the flow of code . 
+
+2.PseudoCode :
+PseudoCode is the logic for any problem but written in simple language (English/Hindi/Marathi), agar ye satisfying answer nhi lag rha hai to read below text. 
+Pseudocode is a high-level, informal representation of a computer program or algorithm. It is not a programming language with strict syntax, but rather a way for developers to outline the logic of a program or algorithm in a human-readable format before translating it into actual code.
+function findMax(a, b){
+    if a > b
+        return a
+    else
+        return b
+}
