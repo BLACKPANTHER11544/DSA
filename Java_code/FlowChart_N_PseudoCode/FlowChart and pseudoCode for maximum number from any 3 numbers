@@ -1,0 +1,55 @@
+Q> FlowChart and pseudoCode for maximum number from any three numbers
+pseudoCode : 
+1. Start
+2. Input A
+3. Input B
+4. Input C
+5. if A >= B and A >= C
+6.     maxNumber = A
+7. else if B >= A and B >= C
+8.     maxNumber = B
+9. else
+10.    maxNumber = C
+11. Display maxNumber
+12. End
+FlowChart : 
+  Oval Shap
+  +--------------+
+  |   Start      |
+  +--------------+
+         |
+         v
+   parallelogram Shap 
+  +--------------+
+  | Input A      |
+  +--------------+
+         |
+         v
+  +--------------+
+  | Input B      |
+  +--------------+
+         |
+         v
+  +--------------+
+  | Input C      |
+  +--------------+
+         |
+         v
+  rhombus Shap
+  +--------------+
+  |   Max(A, B, C)|
+  |  (Decision)   |
+  +--------------+
+   /          \
+  /            \
+ v              v
+ parallelogram shap
++---------------+
+| Display Result|
++---------------+
+         |
+         v
+ oval shap
+  +--------------+
+  |    End       |
+  +--------------+
