@@ -1,0 +1,51 @@
+Q> FlowChart and PseudoCode for Simple_interest 
+PseudoCode for simple interest 
+1. Start
+2. Input principalAmount
+3. Input rateOfInterest
+4. Input timeInYears
+5. simpleInterest = (principalAmount * rateOfInterest * timeInYears) / 100
+6. Display simpleInterest
+7. End
+
+FlowChart for simple interest 
+ start are of oval shap
++--------------+
+  |   Start      |
+  +--------------+
+         |
+         v
+  inputs are of parallelogram shap
+  +--------------+
+  | Input P      |
+  +--------------+
+         |
+         v
+  +--------------+
+  | Input R      |
+  +--------------+
+         |
+         v
+  +--------------+
+  | Input T      |
+  +--------------+
+         |
+         v
+   this is a functional component hence it will be of rectangular shap
+  +--------------+
+  |  Calculate   |
+  | Simple       |
+  | Interest     |
+  +--------------+
+         |
+         v
+  this is ouput hence it will be of parallelogram shap
+  +--------------+
+  | Display Result|
+  +--------------+
+         |
+         v
+   this will be of oval shap
+  +--------------+
+  |    End       |
+  +--------------+
