@@ -1,0 +1,44 @@
+Q> FlowChart and PseudoCode for Sum of two numbers?
+PseudoCode = >
+
+1. Start
+2. Input firstNumber
+3. Input secondNumber
+4. sum = firstNumber + secondNumber
+5. Display sum
+6. End
+
+FlowChart =>
+Start is of oval shap
++--------------+
+| Start |
++--------------+
+|
+v
+inputs are of parallelogram shap
++--------------+
+| Input A |
++--------------+
+|
+v
++--------------+
+| Input B |
++--------------+
+|
+v
+this is of rectangular shap as it is a functional component and have an expression in it.
++--------------+
+| Add A, B |
++--------------+
+|
+v
+This is Ouput and hence it will be of parallelogram shap
++--------------+
+| Display Sum |
++--------------+
+|
+v
+this is end and hence it will be of oval shap
++--------------+
+| End |
++--------------+
