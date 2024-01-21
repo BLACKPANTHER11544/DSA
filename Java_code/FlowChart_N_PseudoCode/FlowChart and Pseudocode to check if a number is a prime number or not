@@ -1,0 +1,40 @@
+Q>FlowCHart and Pseudocode to check if a number is a prime number or not? 
+Pseudocode : 
+1.Start 
+2.Input n 
+3.div=2 
+4.while(div<n){
+    if(n%div==0){
+        print: not a prime number
+    }
+    div= div+1
+}
+5.print number is a prime number
+6.end
+
+FLowChart
+  +--------------+
+  |   Start      |
+  +--------------+
+         |
+         v
+  +--------------+
+  | Input Number |
+  +--------------+
+         |
+         v
+  +--------------+
+  |   Is Prime?  |
+  |  (Decision)   |
+  +--------------+
+   /          \
+  /            \
+ v              v
++---------------+
+| Display Result|
++---------------+
+         |
+         v
+  +--------------+
+  |    End       |
+  +--------------+
