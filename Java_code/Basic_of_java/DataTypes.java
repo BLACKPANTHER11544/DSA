@@ -7,13 +7,13 @@ public class DataTypes{
         short shortValue = 98 ; 
         boolean booleanValue = true ; 
         char charValue =  'a';
-        System.out.print(byteValue);
-        System.out.print(integerValue);
-        System.out.print(longValue);
-        System.out.print(doubleValue);
-        System.out.print(shortValue);
-        System.out.print(booleanValue);
-        System.out.print(charValue);
+        System.out.println(byteValue);
+        System.out.println(integerValue);
+        System.out.println(longValue);
+        System.out.println(doubleValue);
+        System.out.println(shortValue);
+        System.out.println(booleanValue);
+        System.out.println(charValue);
 
     }
 }

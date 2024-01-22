@@ -1,7 +1,7 @@
 public class Variables  {
     public static void main(String args[]){
         int number = 5 ; 
-        String name= "Vaibhav Giri" ;
+        String name= "BLACKPANTHER11544" ;
         System.out.print("number is "+number+" and name is "+name); 
     }
 }
@@ -41,7 +41,7 @@ can be used anywhere in the code base even without creating any instance of the 
 
 2> using final modifier 
 final modifier makes the promitive data types vlaues immutable/unchangeble 
-final int name="vaibhav giri" ; 
+final int name="BLACKPANTHER11544" ; 
 So now if we'll reinitialize variable name then we'll get error as the variable is decleared with modifier final. 
 
 */
