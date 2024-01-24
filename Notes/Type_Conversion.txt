@@ -31,4 +31,4 @@ Order of data-types in which implicit type-conversion happens
 bytes->short->int->float->long->double
 
 
-Now go to 
+Now go to https://github.com/BLACKPANTHER11544/DSA/blob/main/Java_code/Basic_of_java/Implicit_Type_conversion.java for examples .
