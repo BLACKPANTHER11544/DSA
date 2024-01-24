@@ -1,0 +1,34 @@
+1> Type Conversion in Java => 
+Type conversion is a process in which java on its own, promotes the type of the variable's data-type . All this is done implicitly by java. 
+
+Why is this important : 
+It dosn't allow lossy conversion. 
+Lossy conversion is the process in which some information of the variable is lost. 
+
+How does this information get lost : 
+Understandng this with an example => Suppose we have a variable as NUMBER1 and its data-type is INTERGER(int). And now we want to store FLOATING (float/(with deciaml)) value in this variable(NUMBER1)
+of integer data-type, so the caught is that the size of (int) is 4bytes and the size of float is 8bytes. 
+Meaning interger type varaible (NUMBER1) will only have 4x8=32 bits in memory as interger is of 4bytes and 1 byte is 8 bits, So NUMBER1 can store data in 32bit/ or 32 block of the memory, 
+where as float type variables are of 8bytes meaning they can store 8x8=64bits of data in the memory or block of memory. 
+Hence when we try to convert floating value to integer or if we try of store flaoting value to any interger type variable then there is high chance that some data of floating value might 
+get lost as there is not enough memory-space. 
+
+Understandng with an another example: 
+So suppose we have two buckets one of which is interger and other one is of float (decimal value). 
+The bucket of floating value is larger than that of interger, and can store more water into it. 
+
+Now Rajhaav by mistake filled the bucket of floating type. And when his mother saw that, he has filled floating bucket, she asked him to put the water from floating bucket to integer bucket 
+now since the flaoting bucket was larger than interger bucket. some of the water overflowed from integer bucket. And got drained into the sewage. 
+
+So in the same way the data also get lost, when we try to convert any larger size data-type to smaller size data-type. 
+
+Note: 
+Type Conversion happens when: 
+a> Type is compatible. 
+b>  size of destination type > size of source type
+
+Order of data-types in which implicit type-conversion happens 
+bytes->short->int->float->long->double
+
+
+Now go to 
