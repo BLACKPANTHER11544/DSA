@@ -16,5 +16,5 @@ hence we'll specify the data-type prefixed to flaoting value.
 Note in 2nd line we've initialized the variable type_casted with (numb) which is a floating variable, and for compiler to not raise error we've prefixed the (numb) variable with the data type of 
 variable in which we're storing it or casting it, 
 
-For example visit : 
+For example : 
 https://github.com/BLACKPANTHER11544/DSA/blob/main/Java_code/Basic_of_java/Type_casting.java
