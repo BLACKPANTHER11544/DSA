@@ -1,0 +1,20 @@
+1> Type Casting: 
+This is the process of convreting the variable of bigger(size) data type into variables of smaller(szie) data types. In this we already know that lossy conversion will happen 
+and some data might get lost, but still we do it, And this (type Casting) is done explicity by the user. 
+When Java compiler don't allow certain type conversion but still we make those conersion happen knowing that some data might get lost is called Type casting.
+
+To do Type_casting we ensure the compiler by specifying the data type prefixed to the variable: 
+Suppose we're casting floating value to interger value, floating value is of bigger data type and integer is of smaller data type, so the java compiler will not allow such conversion.
+hence we'll specify the data-type prefixed to flaoting value. 
+
+/*
+.......
+1. float numb = 5.99f ; 
+2. int type_casted = (int) numb ; 
+.......
+*/
+Note in 2nd line we've initialized the variable type_casted with (numb) which is a floating variable, and for compiler to not raise error we've prefixed the (numb) variable with the data type of 
+variable in which we're storing it or casting it, 
+
+For example visit : 
+https://github.com/BLACKPANTHER11544/DSA/blob/main/Java_code/Basic_of_java/Type_casting.java

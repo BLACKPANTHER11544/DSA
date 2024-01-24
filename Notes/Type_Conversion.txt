@@ -1,5 +1,5 @@
 1> Type Conversion in Java => 
-Type conversion is a process in which java on its own, promotes the type of the variable's data-type . All this is done implicitly by java. 
+Type conversion is a process in which java on its own, promotes the type of the variable's data-type . All this is done implicitly by java. This is also known as widening convresion.  
 
 Why is this important : 
 It dosn't allow lossy conversion. 
