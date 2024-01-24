@@ -1,0 +1,40 @@
+1> Type Promotion in expression : 
+Type promotions is a concept in java, in this the data-type are promoted to integer type or to double type, depending upon the data-type of the operand in the expression. 
+Note this form of Type Promotion only happens in Expression. 
+
+a> Java automatically promotes the data-type of each byte,short,or char data-type to integer data-type 
+b> If any one data-type of the oprand is long, float or double then the whole expression is promoted to long,float or double respectively.
+
+Example: 
+Suppose we have different form of variables and they are in an expression =>
+a>Example 1: when the data-type of operand is anyone from byte,short,char and etc ;
+......
+1. byte variable_of_byte_type = 10 ; 
+2. char variable_of_char_type = a ; 
+3. System.out.printl(variable_of_byte_type+variable_of_char_type) ;
+......
+
+This will produce output as 10+97 = 107, as the variable_of_byte_type is promoted to interger type and variable_of_char_type is promoted to integer type as well,
+and the integer equivalent of "a" is 97 (also known as ascii value of 'a'); 
+
+b>Example 2: when the data-type of operand is anyone from long,float,double and etc ; 
+......
+1. flaot variable_of_flaot_type = 10.10f ; 
+2. long variable_of_long_type = 100; 
+3. double variable_of_double_type = 200.00; 
+4. System.out.println(variable_of_double_type+variable_of_flaot_type+variable_of_long_type) ; 
+......
+
+This will produce output as 310.10 as the variable_of_flaot_type and variable_of_long_type are promoted to double type.
+
+Note: 
+To check any variable's data-type, we'll have to use: 
+1> getClass() 
+This method is provided by the object of class. The purpsose of using this method is to get the class of the runtime object. And inside the class we have all 
+information of variables and methods of the object, as object is an instance of class. Summery getClass() method is used to get runtime object's class. 
+2> getSimpleName()
+the getName() method is a method provided by the Class, and it is used to obtain the fully qualified name of the class represented by a Class object as
+a String. The "fully qualified name" includes the package name along with the class name.
+
+For example : 
+ https://github.com/BLACKPANTHER11544/DSA/blob/main/Java_code/Basic_of_java/Type_promotion.java
