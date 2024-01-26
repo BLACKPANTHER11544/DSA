@@ -45,3 +45,9 @@ final int name="BLACKPANTHER11544" ;
 So now if we'll reinitialize variable name then we'll get error as the variable is decleared with modifier final. 
 
 */
+
+/*
+Declearing variables in java : 
+In java, A variable's name can be any legal identifier — an unlimited-length sequence of Unicode letters and digits, beginning with a letter, the dollar sign " $ ", 
+or the underscore character " _ ". The convention, however, is to always begin your variable names with a letter, not " $ " or " _ ".
+*/
