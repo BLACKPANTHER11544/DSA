@@ -1,0 +1,18 @@
+1> How does a java Code run or get executed ? 
+For executing any java code we have some step. So there are two major parts in running of java code . 
+a> Compilation
+b> Execution
+So to perform these(compilation and execution) we have JDK(JAVA DEVELOPMENT KIT), in which we have JRE(JAVA RUNTIME ENVIORNMENT) along with many other modules in it.
+The JRE of JDK performs both Compilation and execution of code. 
+
+a> Compilation: 
+In compilation process we have 3 stages in which firstly we write our source code of java, then this source code is compiled by the compiler and in last we get byte code file which
+is with (.class) extention. 
+
+b> Execution: 
+Now for execution, the Byte code file (.class file) is provided to JVM(JAVA VIRTUAL MACHINE) and this produce NATIVE CODE, note Native code is distinct for distinct operating systems. 
+For example the native code for window operating system will be different from the Native code of Linux operating system. Native code is in O's and 1's or its properly in machine language
+or machine code.
+
+This is also the reason why Java is called a portable language, as if we have the source java code then we can run it on any operating system or anywhere(condition the machine should have JDK installed
+on it), where as this is not the case with C++ . 
